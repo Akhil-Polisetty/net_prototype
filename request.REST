@@ -1,0 +1,7 @@
+POST http://localhost:8080/payment
+Content-Type: application/json
+
+{
+    "phone":"9876543211",
+    "sendamount":132
+}

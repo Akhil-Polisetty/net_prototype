@@ -1,0 +1,10 @@
+.user_details
+{
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+
+    background-color: #b96767;
+}

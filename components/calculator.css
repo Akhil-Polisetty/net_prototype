@@ -1,0 +1,38 @@
+.calculator {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.display {
+    margin-bottom: 10px;
+}
+
+.display input {
+    width: 100%;
+    font-size: 1.5em;
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.result {
+    font-size: 1.2em;
+    text-align: right;
+    color: gray;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+
+.buttons->button {
+    padding: 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
